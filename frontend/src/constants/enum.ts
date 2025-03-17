@@ -1,0 +1,54 @@
+export enum Status {
+  ACTIVE = "ACTIVE",
+  INACTIVE = "INACTIVE",
+  SUSPENDED = "SUSPENDED",
+}
+
+export enum Role {
+  USER = "USER",
+  MODERATOR = "MODERATOR",
+  ADMIN = "ADMIN",
+  SUPERUSER = "SUPERUSER",
+}
+
+export enum ReturnPolicy {
+  NO_RETURN = "NO_RETURN",
+  REFUND = "REFUND",
+  EXCHANGE = "EXCHANGE",
+  STORE_CREDIT = "STORE_CREDIT",
+}
+
+export enum WarrantyPeriod {
+  NO_WARRANTY = "NO_WARRANTY",
+  ONE_MONTH = "ONE_MONTH",
+  THREE_MONTHS = "THREE_MONTHS",
+  SIX_MONTHS = "SIX_MONTHS",
+  ONE_YEAR = "ONE_YEAR",
+  TWO_YEARS = "TWO_YEARS",
+  THREE_YEARS = "THREE_YEARS",
+  FIVE_YEARS = "FIVE_YEARS",
+  LIFETIME = "LIFETIME",
+}
+
+export enum PaymentMethod {
+  COD = "COD",
+  ESEWA = "ESEWA",
+  KHALTI = "KHALTI",
+  DEBIT_CARD = "DEBIT_CARD",
+  CREDIT_CARD = "CREDIT_CARD",
+}
+
+export enum OrderStatus {
+  PENDING = "PENDING",
+  CONFIRMED = "CONFIRMED",
+  SHIPPED = "SHIPPED",
+  DELIVERED = "DELIVERED",
+  CANCELLED = "CANCELLED",
+  RETURNED = "RETURNED",
+}
+export enum PaymentStatus {
+  PENDING = "PENDING",
+  PAID = "PAID",
+  FAILED = "FAILED",
+  REFUNDED = "REFUNDED",
+}
